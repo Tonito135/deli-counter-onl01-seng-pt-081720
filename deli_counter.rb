@@ -7,7 +7,7 @@ def line(array)
       newarray.push("#{counter}, #{name}")
       counter += 1
     end
-    return "This line is currently "
+    return "This line is currently: #{newarray}.join"
     else return ""
   end
 end
