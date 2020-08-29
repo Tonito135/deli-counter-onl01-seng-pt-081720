@@ -7,5 +7,6 @@ def line(array)
       newarray.push("#{counter}, #{name}")
       counter += 1
     end
+    return ""
   end
 end
