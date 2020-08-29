@@ -13,8 +13,8 @@ def line(array)
   end
 end
 
-line(katz_deli)
 
+line(katz_deli)
 def line_simple(array)
   current_line = "The simple line is currently:"
   array.each.with_index(1) do |value, indexemus|  
@@ -22,12 +22,9 @@ def line_simple(array)
   end 
   puts current_line
 end 
-  
-line_simple(katz_deli)  
-#[:foo, :bar, :baz].each.with_index(1) do |value, index|
-#    puts "#{index}: #{value}"
-#end
 
+  
+line_simple(katz_deli)
 
 
 def take_a_number(line, new_person)
