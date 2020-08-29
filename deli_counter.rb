@@ -8,7 +8,7 @@ def line(array)
       counter += 1
     end
     puts "This line is currently: #{newarray.join(""")}"
-    else 
-      puts "This line is currently empty"
+  else 
+    puts "This line is currently empty"
   end
 end
