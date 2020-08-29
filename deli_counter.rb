@@ -17,18 +17,16 @@ end
 line(katz_deli)
 def line_simple(array)
   current_line = "The simple line is currently:"
-  array.each.with_index(1) do |value, indexemus|  
-    current_line << " #{indexemus}. #{value},"    
+  array.each.with_index(1) do |value, index|  
+    current_line << " #{index}. #{value},"    
   end 
   puts current_line
 end 
 
   
 line_simple(katz_deli)
-
-
 def take_a_number(line, new_person)
-  line.push(new_person) # could say: "line << new_person"
+  line.push(new_person) 
   puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
